@@ -1,0 +1,101 @@
+@font-face{font-family:"Space Grotesk";src:url("fonts/space-grotesk-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+@font-face{font-family:"Inter";src:url("fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+/* Orange · design tokens. The only place values live. */
+:root{
+  /* Colour */
+  --color-bg: #FFFAF6;
+  --color-surface: #FFF0E6;
+  --color-card: #FFFFFF;
+  --color-text: #1F1A17;
+  --color-heading: #14110F;
+  --color-muted: #5F5650;
+  --color-border: rgba(31,26,23,.12);
+  --color-border-strong: rgba(31,26,23,.45);
+  --color-accent: #C2410C;
+  --color-accent-hover: #9A3412;
+  --color-accent-text: #FFFFFF;
+  --color-accent-strong: #B03A0A;
+  --color-accent-soft: #FFE4D1;
+  --color-inverse-bg: #1F1A17;
+  --color-inverse-text: #FFF8F3;
+  --color-inverse-muted: #C9BDB4;
+  --color-inverse-border: rgba(255,248,243,.4);
+  --color-inverse-action: #FB923C;
+  --color-inverse-action-hover: #FDBA74;
+  --color-inverse-action-text: #1F1A17;
+  --color-nav-bg: rgba(255,250,246,.86);
+  --color-footer-bg: #FFF0E6;
+  --color-footer-text: #1F1A17;
+  --color-footer-border: rgba(31,26,23,.12);
+  --color-input-bg: #FFFFFF;
+  --color-focus: #C2410C;
+  --color-error: #B42318;
+
+  /* Type */
+  --font-display: "Space Grotesk", system-ui, sans-serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-label: "Inter", system-ui, sans-serif;
+  --weight-display: 700;
+  --weight-button: 500;
+  --tracking-display: -0.03em;
+  --tracking-label: 0.02em;
+  --label-case: none;
+  --leading-display: 1.05;
+
+  /* Shape */
+  --radius-button: 999px;
+  --radius-card: 16px;
+  --radius-input: 12px;
+  --radius-pill: 999px;
+  --radius-mark: 12px;
+  --radius-bullet: 999px;
+  --shadow-card: 0 8px 24px rgba(31,26,23,.08);
+
+  /* Spacing scale */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px;
+  --space-6: 32px; --space-7: 48px; --space-8: 72px; --space-9: 112px;
+  --gutter: clamp(20px, 4vw, 40px);
+  --container: 1160px;
+  --section-pad: clamp(72px, 10vw, 128px);
+  --hero-pad: clamp(72px, 12vw, 160px);
+  --hero-width: 52rem;
+
+  /* Type scale (fluid) */
+  --text-display: clamp(2.75rem, 7vw, 5.5rem);
+  --text-h1: clamp(2.4rem, 5.5vw, 4.25rem);
+  --text-h2: clamp(1.9rem, 3.8vw, 3rem);
+  --text-h3: clamp(1.3rem, 2vw, 1.6rem);
+  --text-lead: clamp(1.1rem, 1.6vw, 1.3rem);
+  --text-body: 1rem;
+  --text-small: .875rem;
+  --leading-body: 1.6;
+
+  /* Lines */
+  --border-width: 1px;
+  --border-width-strong: 2px;
+
+  /* Sizes and ratios */
+  --size-tap: 48px;
+  --size-tap-min: 44px;
+  --size-input: 52px;
+  --size-textarea: 160px;
+  --size-mark: 22px;
+  --size-icon: 40px;
+  --nav-height: 72px;
+  --measure: 60ch;
+  --toc-width: 16rem;
+  --date-width: 9rem;
+  --portrait-max: 24rem;
+  --ratio-portrait: 4/5;
+  --ratio-media: 16/9;
+  --width-section-head: 44rem;
+  --width-page-hero: 48rem;
+  --width-quote: 52rem;
+  --text-brand: 1.35rem;
+
+  /* Motion */
+  --motion-fast: .18s;
+  --motion-slow: .7s;
+  --motion-ease: cubic-bezier(.2,.7,.2,1);
+  --motion-rise: 16px;
+}

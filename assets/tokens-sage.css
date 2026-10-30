@@ -1,0 +1,82 @@
+@font-face{font-family:"DM Serif Display";src:url("fonts/dm-serif-display-latin-400-normal.woff2") format("woff2");font-weight:400;font-style:normal;font-display:swap;}
+@font-face{font-family:"Inter";src:url("fonts/inter-latin-wght-normal.woff2") format("woff2");font-weight:100 900;font-style:normal;font-display:swap;}
+/* Sage · design tokens. The only place values live. */
+:root{
+  /* Colour */
+  --color-bg: #F6F6F1;
+  --color-surface: #E9EDE4;
+  --color-card: #FBFBF8;
+  --color-text: #24281F;
+  --color-heading: #1B1F17;
+  --color-muted: #59604F;
+  --color-border: rgba(36,40,31,.14);
+  --color-border-strong: rgba(36,40,31,.45);
+  --color-accent: #566648;
+  --color-accent-hover: #475539;
+  --color-accent-text: #FFFFFF;
+  --color-accent-strong: #4B5A3E;
+  --color-accent-soft: #DCE4D3;
+  --color-inverse-bg: #232A1F;
+  --color-inverse-text: #F6F6F1;
+  --color-inverse-muted: #B9C2AE;
+  --color-inverse-border: rgba(246,246,241,.4);
+  --color-inverse-action: #8FA37C;
+  --color-inverse-action-hover: #A3B58F;
+  --color-inverse-action-text: #1B1F17;
+  --color-nav-bg: rgba(246,246,241,.86);
+  --color-footer-bg: #E9EDE4;
+  --color-footer-text: #24281F;
+  --color-footer-border: rgba(36,40,31,.14);
+  --color-input-bg: #FBFBF8;
+  --color-focus: #566648;
+  --color-error: #B42318;
+
+  /* Type */
+  --font-display: "DM Serif Display", Georgia, serif;
+  --font-body: "Inter", system-ui, sans-serif;
+  --font-label: "Inter", system-ui, sans-serif;
+  --weight-display: 400;
+  --weight-button: 500;
+  --tracking-display: -0.01em;
+  --tracking-label: 0.12em;
+  --label-case: uppercase;
+  --leading-display: 1.1;
+
+  /* Shape */
+  --radius-button: 4px;
+  --radius-card: 6px;
+  --radius-input: 4px;
+  --radius-pill: 4px;
+  --radius-mark: 4px;
+  --radius-bullet: 0;
+  --shadow-card: none;
+
+  /* Spacing scale */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px; --space-5: 24px;
+  --space-6: 32px; --space-7: 48px; --space-8: 72px; --space-9: 112px;
+  --gutter: clamp(20px, 4vw, 40px);
+  --container: 1160px;
+  --section-pad: clamp(72px, 10vw, 128px);
+  --hero-pad: clamp(72px, 12vw, 160px);
+  --hero-width: 52rem;
+
+  /* Type scale (fluid) */
+  --text-display: clamp(2.75rem, 7vw, 5.5rem);
+  --text-h1: clamp(2.4rem, 5.5vw, 4.25rem);
+  --text-h2: clamp(1.9rem, 3.8vw, 3rem);
+  --text-h3: clamp(1.3rem, 2vw, 1.6rem);
+  --text-lead: clamp(1.1rem, 1.6vw, 1.3rem);
+  --text-body: 1rem;
+  --text-small: .875rem;
+  --leading-body: 1.6;
+
+  /* Lines */
+  --border-width: 1px;
+  --border-width-strong: 2px;
+
+  /* Motion */
+  --motion-fast: .18s;
+  --motion-slow: .7s;
+  --motion-ease: cubic-bezier(.2,.7,.2,1);
+  --motion-rise: 16px;
+}
